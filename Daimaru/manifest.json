@@ -1,0 +1,17 @@
+{
+"name":"Granero Daimaru",
+"short_name":"Daimaru",
+"description":"Precios agrícolas actualizados",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#ffffff",
+"theme_color":"#2e7d32",
+"orientation":"portrait",
+"icons":[
+{
+"src":"assets/logo.png",
+"sizes":"512x512",
+"type":"image/png"
+}
+]
+}

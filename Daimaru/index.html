@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Granero Daimaru</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+<img src="assets/logo.png" class="logo" alt="Granero Daimaru">
+<h1>Granero Daimaru</h1>
+<p class="subtitulo">Precios agrícolas actualizados</p>
+</header>
+
+<main>
+
+<section class="busqueda">
+
+<div class="busqueda-box">
+
+<input id="buscarProducto" type="text" placeholder="Buscar producto...">
+
+<button id="limpiarBusqueda">
+×
+</button>
+
+<button id="verFavoritos">
+Favoritos ⭐
+</button>
+
+</div>
+
+<p id="contadorResultados">
+Cargando productos...
+</p>
+
+</section>
+
+<section class="informacion">
+
+<div class="info-card">
+<span>Fuente</span>
+<strong>Central Mayorista</strong>
+</div>
+
+<div class="info-card">
+<span>Fecha</span>
+<strong id="fechaActualizacion">Cargando...</strong>
+</div>
+
+<div class="info-card">
+<span>Productos</span>
+<strong id="totalProductos">0</strong>
+</div>
+
+<div class="info-card">
+<span>Última actualización</span>
+<strong id="ultimaActualizacion">--:--</strong>
+</div>
+
+<button id="actualizarDatos">
+Actualizar 🔄
+</button>
+
+</section>
+
+<section class="productos">
+
+<h2>Lista de precios</h2>
+
+<div id="contenedorProductos" class="contenedor-productos"></div>
+
+</section>
+
+</main>
+
+<footer>
+<p>Granero Daimaru © 2026</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
