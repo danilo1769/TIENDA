@@ -101,4 +101,4 @@ Proyecto en desarrollo y mantenimiento.
 
 ## 👨‍💻 Autor
 
-Desarrollado como proyecto de software independiente bajo el nombre **Granero Daimaru**.
+Desarrollado po **Danilo Marin**  bajo el nombre **Granero Daimaru**.
